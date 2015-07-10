@@ -1,0 +1,623 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<!-- saved from url=(0014)about:internet -->
+<title>Car dealer demo</title>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="-1" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta name="description" content="Used car dealer" />
+<meta name="keywords" content="car, used car, car dealer" />
+<link rel="stylesheet" type="text/css" href="../css/main.css" />
+<link rel="stylesheet" type="text/css" href="../css/wt-rotator.css"/>
+<script type="text/javascript" src="../javascript/functions_jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="../javascript/functions_jquery.easing.1.3.min.js"></script>
+<script type="text/javascript" src="../javascript/functions_jquery.wt-rotator.min.js"></script>
+<script type="text/javascript" src="../javascript/jcarousellite_1.0.1.js"></script>
+
+<script type="text/javascript">
+$(document).ready(	
+	function() {
+		$(".container").wtRotator({
+			width:662,
+			height:294,
+			thumb_width:10,
+			thumb_height:10,
+			button_width:5,
+			button_height:5,
+			button_margin:5,
+			auto_start:true,
+			delay:5000,
+			play_once:false,
+			transition:"fade",
+			transition_speed:800,
+			auto_center:true,
+			easing:"",
+			cpanel_position:"inside",
+			cpanel_align:"BR",
+			timer_align:"top",
+			display_thumbs:true,
+			display_dbuttons:false,
+			display_playbutton:false,
+			display_thumbimg:false,
+			display_side_buttons:false,
+			display_numbers:true,
+			display_timer:false,
+			mouseover_pause:false,
+			cpanel_mouseover:false,
+			text_mouseover:false,
+			text_effect:"fade",
+			text_sync:true,
+			tooltip_type:"none",
+			lock_tooltip:true,
+			shuffle:false,
+			block_size:75,
+			vert_size:55,
+			horz_size:50,
+			block_delay:25,
+			vstripe_delay:75,
+			hstripe_delay:180			
+		});
+		
+		$( '#prev' ).show();
+		$( '#next' ).show();
+		$(".carousel").jCarouselLite({
+			 btnNext: "#next",
+			 btnPrev: "#prev",
+			 visible: 5,
+			 scroll: 1,
+			 mouseWheel: false,
+			 speed: 200,
+			 circular: true,
+			 auto: 5000
+		});
+	}
+);
+	
+function MM_swapImage() { 
+var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+} 
+
+function MM_swapImgRestore() {
+var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { 
+var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+if(!x && d.getElementById) x=d.getElementById(n); return x;
+} 	
+</script>    
+
+</head>
+
+<body>
+	<div id="website_wrapper">
+		<table  cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td width="205px" valign="top">
+					<table cellpadding="0" cellspacing="0" width="100%">
+						<tr height="200px;">
+							<td width="100%" valign="top">
+								<a href="home.html">
+									<div id="logo">
+									</div>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td width="100%" valign="top">
+								<div style="padding-left:30px;">
+								<table  cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<td valign="top">
+											<a onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('mm1','','../images/home2.gif',1)" href="home.html">
+												<img src="../images/home1.gif" name="mm1" id="mm1" border="0">
+											</a>	
+										</td>
+									<tr>
+									<tr>
+										<td valign="top">
+											<a onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('mm2','','../images/vehicles2.gif',1)" href="vehicles.html">
+												<img src="../images/vehicles1.gif" name="mm2" id="mm2" border="0">
+											</a>	
+										</td>
+									<tr>	
+									<tr>
+										<td valign="top">
+											<a onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('mm3','','../images/dealership2.gif',1)" href="dealer.html">
+												<img src="../images/dealership1.gif" name="mm3" id="mm3" border="0">
+											</a>	
+										</td>
+									<tr>
+									<tr>
+										<td valign="top">
+											<a onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('mm4','','../images/contact2.gif',1)" href="contact.html">
+												<img src="../images/contact1.gif" name="mm4" id="mm4" border="0">
+											</a>	
+										</td>
+									<tr>	
+									<tr>
+										<td valign="top">
+											<a onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('mm5','','../images/financing2.gif',1)" href="loans.html">
+												<img src="../images/financing1.gif" name="mm5" id="mm5" border="0">
+											</a>	
+										</td>
+									<tr>
+									<tr>
+										<td valign="top">
+											<a onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('mm6','','../images/sitemap2.gif',1)" href="sitemap.html">
+												<img src="../images/sitemap1.gif" name="mm6" id="mm6" border="0">
+											</a>	
+										</td>
+									<tr>									
+								</table>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</td>
+				<td width="785px" valign="top">
+					<table cellpadding="0" cellspacing="0" width="100%">
+						<tr height="80px">
+							<td width="100%" valign="top">
+								<span style="float:right;">	
+									<div class="links_l" >
+										<div class="links_r" >
+											<div class="link_row">	
+												<ul class="smaller" style="padding-top:2px;">
+													<li class="first blue"><a href="home.html">HOME</a></li> 
+													<li class="blue"><a href="vehicles.html">FEATURED VEHICLES</a></li>
+													<li class="blue"><a href="dealer.html">DEALERSHIP</a></li>
+													<li class="blue"><a href="contact.html">CONTACT US</a></li>													
+													<li class="blue"><a href="loans.html">FINANCING</a></li>	
+													<li class="blue"><a href="sitemap.html">SITEMAP</a></li>													
+												</ul>
+											</div>
+										</div>
+									</div>		
+								</span>							
+							</td>
+						</tr>
+						<tr>
+							<td width="100%" valign="top">
+								<div class="secondrow">      
+									<ul>
+										<li class="first" onmouseover="style.backgroundColor='#CCC';" onmouseout="style.backgroundColor=''">
+											<a href="home.html">HOME</a>									  
+										</li>
+										<li onmouseover="style.backgroundColor='#CCC';" onmouseout="style.backgroundColor=''">
+											<a href="vehicles.html">FEATURED VEHICLES</a>										
+										</li> 
+										 <li onmouseover="style.backgroundColor='#CCC';" onmouseout="style.backgroundColor=''">
+											<a href="dealer.html">DEALERSHIP</a>										 
+										</li>
+										<li onmouseover="style.backgroundColor='#CCC';" onmouseout="style.backgroundColor=''">
+											<a href="contact.html">CONTACT US</a>
+										</li>  
+										 <li onmouseover="style.backgroundColor='#CCC';" onmouseout="style.backgroundColor=''">
+											<a href="loans.html">FINANCING</a>
+										</li>  
+										 <li onmouseover="style.backgroundColor='#CCC';" onmouseout="style.backgroundColor=''">
+											<a href="sitemap.html">SITEMAP</a>
+										</li> 										
+									</ul>  
+								</div>   							
+							</td>
+						</tr>
+						<tr>
+							<td width="100%" valign="top">
+								<div class="container" style="background:white; padding-top:10px;padding-bottom:10px;">
+									<div class="wt-rotator" style="background:white;border:red 1px ridge; width:662px; height:294px;">
+										<div class="screen">
+											<noscript>
+												<img src="../images/01-644x312.jpg"/>
+											</noscript>
+										</div>
+										<div class="c-panel">
+											<div class="thumbnails">
+												<ul>
+													<li>
+														<a href="../images/car1.jpg"><img src="../images/car1.jpg"/></a>
+														<a href="vehicles.html" target="_self"></a>
+													</li> 
+													<li>
+														<a href="../images/car2.jpg"><img src="../images/car2.jpg"/></a>
+														<a href="vehicles.html" target="_self"></a>
+													</li> 
+													<li>
+														<a href="../images/car3.jpg"><img src="../images/car3.jpg"/></a>
+														<a href="vehicles.html" target="_self"></a>
+													</li> 
+													<li>
+														<a href="../images/car4.jpg"><img src="../images/car4.jpg"/></a>
+														<a href="vehicles.html" target="_self"></a>
+													</li> 
+													<li>
+														<a href="../images/car5.jpg"><img src="../images/car5.jpg"/></a>
+														<a href="vehicles.html" target="_self"></a>
+													</li> 
+												</ul>
+											</div>     
+										</div>
+									</div>	
+								</div>							
+							</td>
+						</tr>
+						
+						<tr>
+							<td width="100%" valign="top">				
+								<div id="carousel-wrapper" style="display:block;">
+									<div style="display: block;" id="prev"><a href="#"></a></div>
+									<div style="visibility: visible; overflow: hidden; position: relative; z-index: 2; left: 0px; width: 508px;" class="carousel">
+										<ul style="margin: 0pt; padding: 0pt; position: relative; list-style-type: none; z-index: 1; width: 4675px; left: -2750px;">
+											<li style="overflow: hidden; float: left; width: 127px; height: 154px;">
+												<a href="vehicles.html">
+													<img src="../images/minicar1.gif">
+													<br>
+												</a>							
+											</li>	
+											<li style="overflow: hidden; float: left; width: 127px; height: 154px;">
+												<a href="vehicles.html">
+													<img src="../images/minicar2.gif">
+													<br>
+												</a>									
+											</li>	
+											<li style="overflow: hidden; float: left; width: 127px; height: 154px;">
+												<a href="vehicles.html">
+													<img src="../images/minicar3.gif">
+													<br>
+												</a>									
+											</li>	
+											<li style="overflow: hidden; float: left; width: 127px; height: 154px;">
+												<a href="vehicles.html">
+													<img src="../images/minicar4.gif">
+													<br>
+												</a>									
+											</li>		
+											<li style="overflow: hidden; float: left; width: 127px; height: 154px;">
+												<a href="vehicles.html">
+													<img src="../images/minicar5.gif">
+													<br>
+												</a>									
+											</li>	
+											<li style="overflow: hidden; float: left; width: 127px; height: 154px;">
+												<a href="vehicles.html">
+													<img src="../images/minicar6.gif">
+													<br>
+												</a>									
+											</li>												
+										</ul>
+									</div>
+									<div style="display: block;" id="next"><a href="#"></a></div>
+								</div>
+							</div>	
+							</td>
+						</tr>
+						
+						<tr>
+							<td width="100%" valign="top">
+								<div style="margin-top:10px;"></div>
+								<table cellpadding="0" cellspacing="0" width="100%">
+									<tr>
+										<td width="49%" valign="top">				
+											<div class="block5">
+												
+												<div class="block5-top">
+														<div class="block5-right">
+																<div class="block5-left"></div>
+														</div>
+												</div>		
+												
+												<div class="block5-header">
+													<div>Customer Testimonials</div>
+												</div>
+												
+												<div class="block5-content">
+													<div style="font-size:10pt;">
+														<span>
+														<b>4/11/2012</b>
+														<br>
+														Jim Kincaid was knowledgeable, ethusiatic and personable. 
+														He knew the ins and outs of the car I was interested in and 
+														was able to show me alot about the cars handling ability in 
+														the test drive. He made me very excited about my purchase. 
+														I will definitely go back to him again if I am in the market 
+														for a new car. Thanks Jim!
+														</span>
+														
+														<div>
+															<br>
+															<span style="float:right;">
+															<b>jessicamccarty</b><br>
+															Tornto, ON
+															</span>
+															<br>
+														</div>															
+														
+														<br></br>
+														
+														<span>
+														<b>3/29/2012</b>
+														<br>
+														Excellent experience. Jim was thorough and informative about 
+														our new vehichle. He was also courteous and friendly. There 
+														were a limited number of 4Runners to choose from and Jim 
+														offered assistance in locating one that was just right. 
+														We found exactly what we wanted on the lot. We love the 
+														new car!
+														</span>
+														
+														<div>
+															<br>
+															<span style="float:right;">
+															<b>franklin</b><br>
+															Ottawa, ON
+															</span>
+															<br>
+														</div>		
+
+														<div style="clear:both;"></div>	
+														
+													</div>
+												</div>
+												
+												<div class="block5-footer">
+														<div class="block5-right">
+																<div class="block5-left"></div>
+														</div>
+												</div>
+											</div>
+											
+											<div style="margin-top:10px;">
+												<div class="block5">
+													
+													<div class="block5-top">
+															<div class="block5-right">
+																	<div class="block5-left"></div>
+															</div>
+													</div>	
+													
+													<div class="block5-header">
+														<div>Follow Us</div>
+													</div>						
+
+													<div class="block5-content">	
+														<div style="margin-top:4px; margin-bottom:4px;">
+															<div style="float:left; padding-left:10px;">
+																<img src="../images/facebook.jpg">
+															</div>
+															<div style="float:left; padding-left:16px;">
+																<img src="../images/twitter.jpg">
+															</div>
+															<div style="float:left; padding-left:16px;">
+																<img src="../images/linked.jpg">
+															</div>			
+															<div style="clear:both;"></div>
+														</div>
+													</div>
+
+													<div class="block5-footer">
+															<div class="block5-right">
+																	<div class="block5-left"></div>
+															</div>
+													</div>
+												</div>													
+											</div>
+											
+										</td>
+										
+										<td width="2%" valign="top">
+										</td>
+										
+										<td width="49%" valign="top">
+											<div class="block5">
+												
+												<div class="block5-top">
+														<div class="block5-right">
+																<div class="block5-left"></div>
+														</div>
+												</div>		
+												
+												<div class="block5-header">
+													<div>Featured Vehicles</div>
+												</div>
+												
+												<div class="block5-content">
+													<table cellpadding="0" cellspacing="0" width="100%">
+														<tr>
+															<td width="100%" valign="top">
+																<table cellpadding="0" cellspacing="0" width="360px" height="75px" style="background: url(../images/fback.gif);">
+																	<tr>
+																		<td width="40%" valign="top">
+																			<div style="width:121px; height:60px; margin-left:10px; margin-top:10px;">
+																				<a href="vehicles.html"><img src="../images/fcar1.gif"></a>
+																			</div>
+																		</td>
+																		<td width="60%" valign="top">
+																			<div style="font-size:12pt; margin-left:10px; height:75px;">
+																				<div style="padding-top:8px;">
+																					New 2012 Bravo
+																				</div>	
+																				<div style="padding-top:6px;">
+																				    $33,550
+																				</div>
+																			</div>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td width="100%" valign="top">
+																<table cellpadding="0" cellspacing="0" width="360px" height="75px" style="background: url(../images/fback.gif);margin-top:10px;">
+																	<tr>
+																		<td width="40%" valign="top">
+																			<div style="width:121px; height:60px; margin-left:10px; margin-top:10px;">
+																				<a href="vehicles.html"><img src="../images/fcar2.gif"></a>
+																			</div>
+																		</td>
+																		<td width="60%" valign="top">
+																			<div style="font-size:12pt; margin-left:10px; height:75px;">
+																				<div style="padding-top:8px;">
+																					New 2012 Qubo
+																				</div>	
+																				<div style="padding-top:6px;">
+																				    $30,550
+																				</div>
+																			</div>																		
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>	
+														<tr>
+															<td width="100%" valign="top">
+																<table cellpadding="0" cellspacing="0" width="360px" height="75px" style="background: url(../images/fback.gif);margin-top:10px;">
+																	<tr>
+																		<td width="40%" valign="top">
+																			<div style="width:121px; height:60px; margin-left:10px; margin-top:10px;">
+																				<a href="vehicles.html"><img src="../images/fcar3.gif"></a>
+																			</div>
+																		</td>
+																		<td width="60%" valign="top">
+																			<div style="font-size:12pt; margin-left:10px; height:75px;">
+																				<div style="padding-top:8px;">
+																					New 2012 Doblo
+																				</div>	
+																				<div style="padding-top:6px;">
+																				    $28,550
+																				</div>
+																			</div>																		
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td width="100%" valign="top">
+																<table cellpadding="0" cellspacing="0" width="360px" height="75px" style="background: url(../images/fback.gif);margin-top:10px;">
+																	<tr>
+																		<td width="40%" valign="top">
+																			<div style="width:121px; height:60px; margin-left:10px; margin-top:10px;">
+																				<a href="vehicles.html"><img src="../images/fcar4.gif"></a>
+																			</div>
+																		</td>
+																		<td width="60%" valign="top">
+																			<div style="font-size:12pt; margin-left:10px; height:75px;">
+																				<div style="padding-top:8px;">
+																					New 2012 Idea
+																				</div>	
+																				<div style="padding-top:6px;">
+																				    $38,550
+																				</div>
+																			</div>																		
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td width="100%" valign="top">
+																<table cellpadding="0" cellspacing="0" width="360px" height="75px" style="background: url(../images/fback.gif);margin-top:10px;">
+																	<tr>
+																		<td width="40%" valign="top">
+																			<div style="width:121px; height:60px; margin-left:10px; margin-top:10px;">
+																				<a href="vehicles.html"><img src="../images/fcar5.gif"></a>
+																			</div>
+																		</td>
+																		<td width="60%" valign="top">
+																			<div style="font-size:12pt; margin-left:10px; height:75px;">
+																				<div style="padding-top:8px;">
+																					New 2012 Panda
+																				</div>	
+																				<div style="padding-top:6px;">
+																				    $31,550
+																				</div>
+																			</div>																		
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td width="100%" valign="top">
+																<table cellpadding="0" cellspacing="0" width="360px" height="75px" style="background: url(../images/fback.gif);margin-top:10px;">
+																	<tr>
+																		<td width="40%" valign="top">
+																			<div style="width:121px; height:60px; margin-left:10px; margin-top:10px;">
+																				<a href="vehicles.html"><img src="../images/fcar6.gif"></a>
+																			</div>
+																		</td>
+																		<td width="60%" valign="top">
+																			<div style="font-size:12pt; margin-left:10px; height:75px;">
+																				<div style="padding-top:8px;">
+																					New 2012 Climbing
+																				</div>	
+																				<div style="padding-top:6px;">
+																				    $33,550
+																				</div>
+																			</div>																		
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>														
+													</table>
+												</div>
+												
+												<div class="block5-footer">
+														<div class="block5-right">
+																<div class="block5-left"></div>
+														</div>
+												</div>
+											</div>										
+										</td>
+										
+									</tr>
+								</table>
+								
+							</td>
+						</tr>
+						
+						<tr>
+							<td width="100%" valign="top">
+								<div style="margin-top:10px; margin-bottom:10px;">
+									<div class="block5">
+										
+										<div class="block5-top">
+												<div class="block5-right">
+														<div class="block5-left"></div>
+												</div>
+										</div>	
+										
+										<div class="block5-header" style="height:20px;">
+										</div>						
+
+										<div class="block5-content" style="height:30px;">	
+											<div style="font-size:10pt; font-weight:bold; padding-top:6px;" align="center">
+												Car dealer demo | Kawser Fatema | kawserfatema@gmail.com
+											</div>
+										</div>
+
+										<div class="block5-footer">
+												<div class="block5-right">
+														<div class="block5-left"></div>
+												</div>
+										</div>
+									</div>													
+								</div>							
+							</td>
+						</tr>
+						
+					</table>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>	
+</html>

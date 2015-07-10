@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<vehicles>
+	<vehicle>
+	  <name>New 2012 Bravo</name>
+	  <drivetrain>FWD</drivetrain>
+	  <transmission>Automatic</transmission>
+	  <intcolour>Red</intcolour>
+	  <stocknumber>7506</stocknumber>
+	  <engine>2.4L I-4 cyl</engine>
+	  <extcolour>Red</extcolour>
+	  <kilometres>3517</kilometres>
+	  <price>Price: $33,550</price>
+	</vehicle>
+	<vehicle>
+	  <name>New 2012 Qubo</name>
+	  <drivetrain>FWD</drivetrain>
+	  <transmission>6 Speed Auto</transmission>
+	  <intcolour>Green</intcolour>
+	  <stocknumber>4732</stocknumber>
+	  <engine>2.0L 2.0L</engine>
+	  <extcolour>Green</extcolour>
+	  <kilometres>4232</kilometres>
+	  <price>Price: $30,550</price>
+	</vehicle>	
+	<vehicle>
+	  <name>New 2012 Doblo</name>
+	  <drivetrain>RWD</drivetrain>
+	  <transmission>Automatic</transmission>
+	  <intcolour>Blue</intcolour>
+	  <stocknumber>5232</stocknumber>
+	  <engine>3.7L V-6 cyl</engine>
+	  <extcolour>Blue</extcolour>
+	  <kilometres>6457</kilometres>
+	  <price>Price: $28,550</price>
+	</vehicle>		
+	<vehicle>
+	  <name>New 2012 Idea</name>
+	  <drivetrain>FWD</drivetrain>
+	  <transmission>4 Speed Auto</transmission>
+	  <intcolour>Black</intcolour>
+	  <stocknumber>3433</stocknumber>
+	  <engine>3.5L V-6 cyl</engine>
+	  <extcolour>Black</extcolour>
+	  <kilometres>3432</kilometres>
+	  <price>Price: $38,550</price>
+	</vehicle>		
+	<vehicle>
+	  <name>New 2012 Panda</name>
+	  <drivetrain>RWD</drivetrain>
+	  <transmission>Automatic</transmission>
+	  <intcolour>Red</intcolour>
+	  <stocknumber>3433</stocknumber>
+	  <engine>2.0L 2.0L</engine>
+	  <extcolour>Red</extcolour>
+	  <kilometres>4546</kilometres>
+	  <price>Price: $31,550</price>
+	</vehicle>		
+	<vehicle>
+	  <name>New 2012 Climbing</name>
+	  <drivetrain>FWD</drivetrain>
+	  <transmission>Automatic</transmission>
+	  <intcolour>Blue</intcolour>
+	  <stocknumber>4455</stocknumber>
+	  <engine>3.7L V-6 cyl</engine>
+	  <extcolour>Blue</extcolour>
+	  <kilometres>2345</kilometres>
+	  <price>Price: $33,550</price>
+	</vehicle>		
+</vehicles>
